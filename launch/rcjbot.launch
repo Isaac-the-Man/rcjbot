@@ -1,0 +1,3 @@
+<launch>
+	<node pkg="rcjbot" name="main" type="main.py" required="true" />
+</launch>

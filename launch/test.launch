@@ -1,0 +1,4 @@
+<launch>
+	<node pkg="rcjbot" name="main" type="main.py" required="true" />
+	<test test-name="test_main" pkg="rcjbot" type="test_main.py" />
+</launch>
